@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 3em;
+  color: black;
+}
+.calculatrice {
+  width: 20rem;
+  height: 30rem;
+  background-color:   rgba(40, 167, 150, 0.781);
+  
+  padding: 1%;
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: ridge;
+  
+}
+
+.calculatrice input{
+  width: 240px;
+  border-color: black;
+  border: 3px solid black;
+  text-align: right;
+  padding-right: 10%;
+  font-weight: bold;
+  font-size: xx-large;
+
+}
+.calculatrice > .btn {
+  width: 80px;
+  height: 60px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 3px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  border: 2px solid black;
+  /* background-color: rgba(231, 231, 17, 0.541); */
+
+}
+.btn:hover{
+  background-color: rgba(14, 6, 6, 0.637);
+  color: yellow;
+}
+.btn-equal {
+  width:160px;
+  height: 60px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 3px;
+  
+}
+.result{
+  width: 100%;
+  height: 50px;
+  font-size: 2em;
+  margin-bottom: 10px;
+  
+}
+.actions{
+  width: 100%;
+}
+.actions .btn{
+  width:60px;
+  height: 50px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 3px;
+  border-radius: 5px;
+  border: none;
+  color: red;
+  border: 2px solid black;
+}
+.actions .btn:hover{
+  background-color: rgba(14, 6, 6, 0.637);
+  color: yellow;
+}
+
+.history {
+  width: 200px;
+  height: 200px;
+  position: bottom;
+  border-radius: 10px;
+  font-size: 1.5em;
+  overflow: auto;
+  margin-top: 10px;
+}
